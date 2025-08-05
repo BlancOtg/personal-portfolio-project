@@ -1,0 +1,221 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    list-style-type: none;
+}
+li{
+        font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+}
+    body{
+        height: fit-content;
+        background: linear-gradient( grey, rgba(183, 209, 220, 0.581));
+    }
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background: linear-gradient(rgb(12, 9, 33), grey); */
+
+    height: 5pc;
+    width: 100%;
+    font-size: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    color: aliceblue;
+    position: fixed;
+    margin-bottom: 1pc;
+}
+#sec{
+    background-image: url(images/adrien.jpg);
+}
+
+#hdiv_1 {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left:2pc ;
+} 
+
+#hdiv_2 {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left:2pc ;
+}
+
+#hdiv_2 ul{ 
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    list-style-type : none;
+}
+
+#hdiv_2 ul li {
+    margin-left: 45px;
+}
+
+li #home,#about,#work,#service,#contact {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 28px;
+    height: 2.5pc;
+    width: 4.9pc;
+    background:none;
+    border: none;
+}
+
+section{
+    justify-content: space-around;
+    align-items: end;
+    display: flex;
+    height: 55pc;
+    width: 100%;
+    background-image: url(images/adrien.jpg);
+    background-size: cover;
+    margin-bottom: 5px;
+}
+
+section div {
+    /* background:linear-gradient( rgb(94, 68, 94),rgba(191, 165, 213, 0.581)); */
+    width: 48%;
+    height: 90%;
+    outline-color: antiquewhite;
+    outline-width: 2px;
+    color: blanchedalmond;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    border-radius: 5%;
+    flex-wrap: wrap;
+    gap: -5pc;
+}
+#div_2{
+    background-image: url(images/ilya.jpg);
+    image-rendering: optimizeQuality;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60%;
+    margin-bottom: 8%;
+    width: 45%;
+}
+
+div #ttt{
+    list-style-type: none;
+    width: 100%;
+    padding-left: 5%;
+    margin-top: 8pc;
+    margin-right: 3.89pc;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+div h1{
+    width: 100%;
+    height: fit-content;
+    font-size: 6pc;
+    text-align: center;
+}
+div #sec1p{
+    font-size: 28px;
+    display: flex;
+    justify-content: space-around;
+}
+ #hello{
+    width: 8pc;
+    height: 4.5pc;
+    background: radial-gradient(rgba(191, 165, 213, 0.581),rgb(127, 95, 133));
+    font-size: 28px;
+    border-radius: 8.5%;
+    border: 3px,4px ;
+    border-color: rgb(157, 125, 170);
+    margin-right: 10pc;
+    margin-bottom: 8.5pc;
+}
+
+.sec2d{
+    background: linear-gradient(rgba(191, 165, 213, 0.581),rgb(94, 68, 94));
+    
+}
+#sec2{
+        background-image: url(images/unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+#div_3{
+    height: 80%;
+    background-image: url(images/bout.jpg);
+    background-size: cover;
+    
+}
+#div_4{
+    display: flex;
+    text-align: left;
+    align-items: normal;
+    padding: 1%;
+    height: 85%;
+}
+#div_4 #tabl  {
+    background: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 1pc;
+    margin-left: 2pc;
+    margin-top: -24pc;
+}
+#tabl tr {
+    table-layout: auto;
+    font-size: large;
+}
+#tabl tr ul li{
+    padding-right: 1.5pc ;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+#div_4 h2{
+    font-size: 38px;
+    margin-right: 70%;
+    margin-top: 10%;
+    text-decoration: underline;
+    margin-bottom: 10%;
+}
+
+#div_4 p{
+    font-size: 24px;
+    margin-bottom: 10pc;
+}
+
+#div_5{
+    width: 100%;
+}
+
+
+@media screen and (min-width: 1024px){
+    header{
+        background: linear-gradient(gray, grey);
+        gap:1pc;
+    }
+    #hdiv_2{
+        margin-right: 13pc;
+    }
+
+    section{
+        font-size: 18px;
+    }
+    
+}
